@@ -1,0 +1,163 @@
+@CHARSET "ISO-8859-1";
+
+div.box {
+	width: 250px;
+	border: 1px solid red;
+	padding: 20px;
+	float: left;
+	margin: 5px;
+}
+
+/* Beans */
+div.middle1 {
+	transition: 1s;
+	/* CSS3 transitions allows to change property values smoothly (from one value to another), over a given duration. */
+	opacity: 0;
+	position: absolute;
+	top: 160px;
+	left: 90px;
+}
+div.box1:hover .image1 {
+	opacity: 0.3;
+}
+div.box1:hover  .middle1 {
+	opacity: 1;
+}
+div.text1 {
+	background-color: #4CAF50;
+	color: white;
+	font-size: 16px;
+	padding: 16px 15px;
+}
+
+/* Vegetables */
+div.middle2 {
+	transition: 1s;
+	/* CSS3 transitions allows to change property values smoothly (from one value to another), over a given duration. */
+	opacity: 0;
+	position: absolute;
+	top: 160px;
+	left: 350px;
+}
+div.box2:hover .image2 {
+	opacity: 0.3;
+}
+div.box2:hover  .middle2 {
+	opacity: 1;
+}
+div.text2 {
+	background-color: #4CAF50;
+	color: white;
+	font-size: 16px;
+	padding: 16px 15px;
+}
+
+/* Fruits */
+div.middle3 {
+	transition: 1s;
+	/* CSS3 transitions allows to change property values smoothly (from one value to another), over a given duration. */
+	opacity: 0;
+	position: absolute;
+	top: 160px;
+	left: 610px;
+}
+div.box3:hover .image3 {
+	opacity: 0.3;
+}
+div.box3:hover  .middle3 {
+	opacity: 1;
+}
+div.text3 {
+	background-color: #4CAF50;
+	color: white;
+	font-size: 16px;
+	padding: 16px 15px;
+}
+
+/* Junk Foods */
+div.middle4 {
+	transition: 1s;
+	/* CSS3 transitions allows to change property values smoothly (from one value to another), over a given duration. */
+	opacity: 0;
+	position: absolute;
+	top: 160px;
+	left: 870px;
+}
+div.box4:hover .image4 {
+	opacity: 0.3;
+}
+div.box4:hover  .middle4 {
+	opacity: 1;
+}
+div.text4 {
+	background-color: #4CAF50;
+	color: white;
+	font-size: 16px;
+	padding: 16px 15px;
+}
+
+/* Others */
+div.middle5 {
+	transition: 1s;
+	/* CSS3 transitions allows to change property values smoothly (from one value to another), over a given duration. */
+	opacity: 0;
+	position: absolute;
+	top: 160px;
+	left: 1130px;
+}
+div.box5:hover .image5 {
+	opacity: 0.3;
+}
+div.box5:hover  .middle5 {
+	opacity: 1;
+}
+div.text5{
+	background-color: #4CAF50;
+	color: white;
+	font-size: 16px;
+	padding: 16px 15px;
+}
+
+/* Clothes */
+div.middle6 {
+	transition: 1s;
+	/* CSS3 transitions allows to change property values smoothly (from one value to another), over a given duration. */
+	opacity: 0;
+	position: absolute;
+	top: 520px;
+	left: 90px;
+}
+div.box6:hover .image6 {
+	opacity: 0.3;
+}
+div.box6:hover  .middle6 {
+	opacity: 1;
+}
+div.text6{
+	background-color: #4CAF50;
+	color: white;
+	font-size: 16px;
+	padding: 16px 15px;
+}
+
+/* Electronics */
+div.middle7 {
+	transition: 1s;
+	/* CSS3 transitions allows to change property values smoothly (from one value to another), over a given duration. */
+	opacity: 0;
+	position: absolute;
+	top: 520px;
+	left: 350px;
+}
+div.box7:hover .image7 {
+	opacity: 0.3;
+}
+div.box7:hover  .middle7 {
+	opacity: 1;
+}
+div.text7 {
+	background-color: #4CAF50;
+	color: white;
+	font-size: 16px;
+	padding: 16px 15px;
+}

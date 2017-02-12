@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Business Home</title>
+<!-- Latest compiled and minified CSS -->
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+<!-- jQuery library -->
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
+<!-- Latest compiled JavaScript -->
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+
+<link rel="stylesheet" href="bootstrap/bootstrap.min.css"/>
+<script src="bootstrap/jquery.min.js"></script>
+<script src="bootstrap/bootstrap.min.js"></script>
+	<style>
+		div.box {
+			width:250px;
+			border:1px solid pink;
+			padding:20px;
+			float:left;
+			margin:5px;
+		}
+	</style>
+</head>
+<body>
+
+<nav class ="navbar navbar-inverse"> <!-- A navbar(navigation bar) is a navigation header that is placed at the top of the page -->
+  <div class="container-fluid">	<!-- It keeps gaps between the browser sides -->
+	<div class="navbar-header"> <!-- Used for the brand to be centered when zoom or in small devices -->
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-button-collapse" aria-expanded="false">
+		<!-- type is button type, the button toggled, button toggle is collapse, after button collapse what content should be displayed, the content is expanded or collapsed at first? -->
+		<!-- span is used to modify the words -->	
+		<span class="sr-only"> Toggle Navigation</span> <!-- sr-only is for blind user, screen readers, it is not displayed but helps to screen readers or blind users -->
+		<span class="icon-bar"></span> <!-- icon in the button (-) -->
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	  </button>
+	  <a class="navbar-brand" href="index.html">TopsBusiness</a> <!-- navbar-brand for the brand name -->
+		</div>
+		
+		<div class="collapse navbar-collapse" id="navbar-button-collapse">
+		  <ul class="nav navbar-nav">
+		    <li><a href="index.html">Home</a></li>  <!-- class="active" makes Home active when the page loads -->
+		    <li><a href="ViewProduct">Products</a></li>
+		    <li><a href="Images.html">Images</a></li>
+		    <li class="dropdown"> <!-- The .dropdown class indicates a dropdown menu. -->
+		      <a class="dropdown-toggle" data-toggle="dropdown">Departments
+		        <span class="caret"></span> <!-- The .caret class creates a caret arrow icon, which indicates that the button is a dropdown. -->
+		      </a>
+		      <ul class="dropdown-menu">
+		        <li><a href="ViewProductByType?category=beans">Beans</a></li>
+		        <li><a href="ViewProductByType?category=vegetables">Vegetables</a></li>
+		        <li><a href="ViewProductByType?category=fruits">Fruits</a></li>
+		        <li><a href="ViewProductByType?category=junkfoods">Junk Foods</a></li>
+		        <li><a href="ViewProductByType?category=otherstuffs">Other Stuffs</a></li>
+		        <li><a href="ViewProductByType?category=clothes">Clothes</a></li>
+		        <li><a href="ViewProductByType?category=electronics">Electronics</a></li>
+		      </ul>
+		    </li>
+		    <li><a href="Tips.html">Tips</a></li>		    
+		    <li  class="active"><a href="About.html">About</a></li>
+		  </ul>
+		</div>
+	</div>
+</nav>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="ISO-8859-1">
+<title>Product Images</title>
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css"/>
+  <link rel="stylesheet" href="CssImages.css"/>
+  <script src="bootstrap/jquery.min.js"></script>
+  <script src="bootstrap/bootstrap.min.js"></script>
+  
+  <style>
+    .dropdown-men:hover {
+      background-color: blue; 
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle colapsed" data-toggle="collapse" data-target="#navbar-button-collapse" aria-expanded="false">
+          <span class=sr-only>Toggle Navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">TopsBusiness</a>
+      </div>
+      
+      <div class="collapse navbar-collapse" id="navbar-button-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="ViewProduct">Product</a></li>
+          <li><a href="Images.html">Images</a></li>
+          <li class="dropdown"> <!-- The .dropdown class indicates a dropdown menu. -->
+		      <a class="dropdown-toggle" data-toggle="dropdown">Departments
+		        <span class="caret"></span> <!-- The .caret class creates a caret arrow icon, which indicates that the button is a dropdown. -->
+		      </a>
+		      <ul class="dropdown-menu">
+		        <li><a href="ViewProductByType?category=beans">Beans</a></li>
+		        <li><a href="ViewProductByType?category=vegetables">Vegetables</a></li>
+		        <li><a href="ViewProductByType?category=fruits">Fruits</a></li>
+		        <li><a href="ViewProductByType?category=junkfoods">Junk Foods</a></li>
+		        <li><a href="ViewProductByType?category=otherstuffs">Other Stuffs</a></li>
+		        <li><a href="ViewProductByType?category=clothes">Clothes</a></li>
+		        <li><a href="ViewProductByType?category=electronics">Electronics</a></li>
+		      </ul>
+		    </li>
+          <li><a href="Tips.html">Tips</a></li>
+          <li  class="active"><a href="About.html">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13469.172385376465!2d85.33962866495709!3d27.675789311864555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x963d00cdf478c6b6!2sNepal+College+of+Information+Technology!5e0!3m2!1sen!2snp!4v1485278007219" width="600" height="450" frameborder="0" style="border:0 ; float:right " allowfullscreen></iframe>
+	  <h4>Tops Business</h4><p>Tops Business is one of the best online and off-line store in Kathmandu. This company was
+	  established by four Engineers who were graduated with Electronics and Communication degree. During Engineering and 
+	  after the completion of degree, they realized, Electronics and Communication Engineering was not their area of interest.
+	  They had keen interest in Programming and Software development. So they joined software institutes and later on after
+	  almost 5 years they established TOPS BUSINESS. </p>
+	  
+	  <a href="Admin" class="btn btn-primary" role="button">Admin</a>  <!-- role is used for blind users -->
+	  <a href="User" class="btn btn-primary" role="button">User</a>
+	  
+	  
+	  <div class="container" style="margin-top:300px; text-align:center">
+	    <p>&copy;Copyright TopsBusiness 2017.</p>
+	  </div>
+  </div>
+</body>
+</html>
